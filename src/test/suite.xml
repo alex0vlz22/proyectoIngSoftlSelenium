@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="proyectoIngSoftl suite" verbose="1">
+    <parameter name="url" value="localhost:1000"></parameter>
+    <parameter name="registrarseTextForButton" value="Registrarse"></parameter>
+    <parameter name="covidYNosotrosTextForButton" value="COVID y nosotros"></parameter>
+    <parameter name="soporte" value="Soporte"></parameter>
+    <parameter name="ingresar" value="Ingresar"></parameter>
+
+    <!-- CLIENT PARAMETERS -->
+    <parameter name="dniC" value="1234567801"></parameter>
+    <parameter name="nombreC" value="Erik"></parameter>
+    <parameter name="apellidoC" value="Rojas Gomez"></parameter>
+    <parameter name="telefonoC" value="3107863312"></parameter>
+    <parameter name="direccionC" value="Bgta. Av. 14 Casa #23-12"></parameter>
+    <parameter name="correoC" value="erikrojas@gmail.es"></parameter>
+    <parameter name="contrasenaC" value="cliente123"></parameter>
+    <!-- SELLER PARAMETERS -->
+    <parameter name="dniV" value="61723548918"></parameter>
+    <parameter name="nombreV" value="Junior Alexis"></parameter>
+    <parameter name="apellidoV" value="Penagos Muñoz"></parameter>
+    <parameter name="telefonoV" value="3126280981"></parameter>
+    <parameter name="direccionV" value="AXM. Av. 20 Casa #10-10"></parameter>
+    <parameter name="correoV" value="linamaria18@gmail.com"></parameter>
+    <parameter name="contrasenaV" value="linamaria123"></parameter>
+    <parameter name="codeV" value="A7B8C9"></parameter>
+
+    <parameter name="nameCategory" value="Tecnología"></parameter>
+    <parameter name="nameSubcategory" value="Computadores"></parameter>
+    
+    <parameter name="bodegaNombre" value="El obrero"></parameter>
+    <parameter name="bodegaDireccion" value="Mdllin. Simon bolivar Almacen #2-33"></parameter>
+    <parameter name="bodegaCantidad" value="30"></parameter>
+    <test name="test name">
+        <classes>
+            <class name="sanity.FunctionalTesting"></class>
+        </classes>
+    </test>
+</suite>
